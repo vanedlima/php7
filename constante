@@ -1,0 +1,14 @@
+<!Doctype HTML>
+<html>
+	<title>
+		<head>
+			Constante
+	</title>
+		</head>
+			<body>
+				<?php
+				define("Empresa","PHP business");
+				echo Empresa;
+				?>
+			</body>
+</html>
