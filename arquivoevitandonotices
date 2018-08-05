@@ -1,0 +1,21 @@
+<!Doctype HTML>
+	<html>
+		<head>
+			<title>
+				Notices
+			</title>
+		</head>
+					<body>
+						<?php
+							$idade = "39";
+						?>
+						  <p> Minha idade: </p>
+						  <?php
+							echo $idade;
+								unset($idade);
+								echo @$idade;
+							  $idade2 = @$idade;
+							  echo $idade2;
+							   ?>
+					</body>
+</html>
