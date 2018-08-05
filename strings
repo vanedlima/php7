@@ -1,0 +1,22 @@
+<!Doctype HTML>
+<html>
+	<head>
+	<title>
+			Strings
+	</title>
+	</head>
+			<body>
+			<BR>
+			Usando strings
+			</BR>
+			<p>
+			<BR>
+				<?php
+					$idade = 39;
+					$result1 = "$idade";
+					$result2 = '$idade';
+					echo "$result1<BR>";
+					echo $result2;
+				?>
+			</body>
+</html>
