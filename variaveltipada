@@ -1,6 +1,0 @@
-<?php
-
-String $nome = "Vanessa";   // só pode aceitar string
-
-
-?>
