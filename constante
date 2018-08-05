@@ -1,11 +1,10 @@
 <!Doctype HTML>
 <html>
-	<title>
-		<head>
+	<head>
+		<title>
 			Constante
-		</head>
-	</title>
-		</head>
+		</title>
+	</head>
 			<body>
 				<?php
 				define("Empresa","PHP business");
