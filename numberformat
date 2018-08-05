@@ -1,0 +1,20 @@
+<!Doctype HTML>
+<html>
+	<head>
+	<title>
+			Number format
+	</title>
+	</head>
+			<body>
+			<BR>
+			Usando number format
+			</BR>
+			<p>
+				<?php
+				$preco = "25000";
+				$fpreco = number_format ( $preco);
+				echo "$fpreco<BR>";
+				?>
+				</p>
+			</body>
+</html>
