@@ -1,0 +1,22 @@
+<!Doctype HTML>
+<html>
+	<head>
+	<title>
+			Number format
+	</title>
+	</head>
+			<body>
+			<BR>
+			Usando number format
+			</BR>
+			<p>
+			<BR>
+			O pre&ccedil;o do produto &eacute;:
+				<?php
+				$preco = 25000.87;
+				$fpreco = number_format($preco, 2, ',' , '.');
+				echo "$fpreco<BR>";
+				?>
+			</p>
+			</body>
+</html>
