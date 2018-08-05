@@ -14,7 +14,7 @@
 			O pre&ccedil;o do produto &eacute;:
 				<?php
 				$preco = 25000;
-				$fpreco = number_format($preco,2);
+				$fpreco = number_format($preco, 2, ',' , '.');
 				echo "$fpreco<BR>";
 				?>
 			</p>
