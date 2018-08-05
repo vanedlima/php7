@@ -10,11 +10,13 @@
 			Usando number format
 			</BR>
 			<p>
+			<BR>
+			O pre&ccedil;o do produto &eacute;:
 				<?php
-				$preco = "25000";
-				$fpreco = number_format ( $preco);
+				$preco = 25000;
+				$fpreco = number_format($preco,2);
 				echo "$fpreco<BR>";
 				?>
-				</p>
+			</p>
 			</body>
 </html>
