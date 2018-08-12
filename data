@@ -16,6 +16,8 @@
 			<?php
 				echo 'Proximo Domingo: '. date ('d-m-y', $nextweek)."<br>";
 			?>
+			<p>
+			<p>
 			<?php
 				echo 'Daqui um mes: '. date('d-m-Y', strtotime('+1 month')) ."<br>";
 			?>
