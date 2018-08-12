@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<title>
+			Data 
+		</title>
+	</head>
+	<body>
+		<br>
+			<?php
+				$nextweek= time() + (7*24*60*60);
+				echo 'A data de hoje: '.date ('d/m/y'). "<br>";
+			?>
+			<p>
+			<p>
+			<?php
+				echo 'Proximo Domingo: '. date ('d-m-y', $nextweek)."<br>";
+			?>
+	</body>
+</html>
