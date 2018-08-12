@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<title>
+			Data e hora:
+		</title>
+	</head>
+	<body>
+		<br>
+		A data de hoje: 
+		<p>
+			<?php
+				$hoje = date("d /m / y");
+				echo $hoje;
+			?>
+	</body>
+</html>
