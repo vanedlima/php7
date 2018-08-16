@@ -11,24 +11,25 @@
 			$nota2=8;
 			$nota3=9;
 			$nota4=2;
-			$resultado= ($nota1 + $nota2 + $nota3 + $nota4 / 4); ?>
+			$resultado= ($nota1 + $nota2 + $nota3 + $nota4 / 4); 
+			?>
 			<br>
 			<p>
 			<?php
-			$mensagem = '';
+				$mensagem = '';
 				if( $resultado >= 7){
 					$mensagem = ': o aluno foi aprovado.';
 					}
 				else
-				 {
-				 $mensagem = ': o aluno foi reprovado.';
-				 }
-				 ?>
-				 A media do aluno foi: <?php echo $resultado;?>
+					 {
+				 	$mensagem = ': o aluno foi reprovado.';
+					 }
+			 ?>
+					 A media do aluno foi: <?php echo $resultado;?>
 				 <br> 
 				 <p>
 				 Logo, 
-				 <?php
+			 <?php
 				 echo $mensagem;
 			?>
 		</body>
