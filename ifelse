@@ -18,17 +18,17 @@
 			<?php
 				$mensagem = '';
 				if( $resultado >= 7){
-					$mensagem = ': o aluno foi aprovado.';
+					$mensagem = ' o aluno foi aprovado.';
 					}
 				else
 					 {
-				 	$mensagem = ': o aluno foi reprovado.';
+				 	$mensagem = ' o aluno foi reprovado.';
 					 }
 			 ?>
 					 A media do aluno foi: <?php echo $resultado;?>
 				 <br> 
 				 <p>
-				 Logo  
+				 Logo,  
 			 <?php
 				 echo $mensagem;
 			?>
