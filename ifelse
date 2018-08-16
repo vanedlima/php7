@@ -28,7 +28,7 @@
 					 A media do aluno foi: <?php echo $resultado;?>
 				 <br> 
 				 <p>
-				 Logo, 
+				 Logo  
 			 <?php
 				 echo $mensagem;
 			?>
