@@ -1,0 +1,48 @@
+<!doctype html:
+<html>
+	<head>
+		<title>
+			Swtich
+		</title>
+	</head>
+		<body>
+				<?php
+					$nota=00;
+				?>
+			<br>
+			<p>
+			A nota:
+				<?php
+				if ($nota == 0) {
+				echo "zero";
+				} elseif ($nota == 1) {
+				echo "1";
+				} elseif ($nota == 2) {
+				echo "2";
+				}
+				?>
+				<br>
+				<p>
+				
+				<?php
+				switch ($nota) {
+				case 1:
+					echo "primeira opção";
+				break;
+				case 2:
+					echo "segunda opção";
+				break;}
+				?>
+			Ela sera:
+				<?php
+				switch ($nota) {
+				case "minima":
+					echo "nota minima";
+				break;
+				case "maxima":
+					echo "nota maxima";
+				break;
+				}
+				?>
+		</body>
+</html>
