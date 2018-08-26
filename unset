@@ -10,9 +10,9 @@
             			$a = 4; 
             			echo $a;
            			echo "<br/>";
-           			unset($a);
-            			$a = 1;
-	   			 echo $a;
+           			unset($a); \\ deleta o valor da variável
+            			$a = 1;  \\ variável recebe outro valor
+	   			echo $a; \\imprime novo valor
      			  ?> 
 				
 		</body>
