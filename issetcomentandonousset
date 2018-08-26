@@ -11,9 +11,9 @@
             			echo $a;
            			echo "<br/>";
            			//unset($a); 
-            		if (isset($a)){
-						    echo $a;
-						    }  
+            			if (isset($a)){
+				echo $a;
+				 }  
 					
      			      ?> 
 				
