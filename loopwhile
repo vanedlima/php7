@@ -1,0 +1,23 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<title>
+			iContador com While
+		</title>
+	</head>
+		<body>
+			<?php
+			$contador =1;
+			While ($contador < 11)
+			{ echo $contador;
+			echo "";
+			$contador ++;}
+			?>
+			<?php
+			$contador =1;
+			do { echo $contador;
+			echo "";
+			$contador ++;} While ($contador < 11)
+			?>
+		</body>
+</html>
