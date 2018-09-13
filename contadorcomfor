@@ -1,0 +1,15 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<title>
+			iContador com for
+		</title>
+	</head>
+		<body>
+			<?php
+			for ($contador =1;$contador<11;$contador ++)
+			{ echo $contador;
+			echo "";}
+			?>
+		</body>
+</html>
