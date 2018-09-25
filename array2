@@ -1,0 +1,21 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<title>
+			Array
+		</title>
+	</head>
+		<body>
+			<?php
+			  $nome = "Vanessa";
+			  $ano = 2018; //nao tem aspas, senao funcionara como texto
+			  $sobrenome = "lima";
+			  $bloqueado = false;
+			  //////////////////////////////////////////
+			  $carros = array ( "fusca", "fiat", "ecosport");
+			    echo $carros[2];
+			    echo "<br>";
+			    echo $carros[1];
+			?>
+		</body>
+</html>
