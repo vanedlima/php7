@@ -1,0 +1,14 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<title>
+			Array
+		</title>
+	</head>
+		<body>
+			<?php
+			$nome=$_GET["a"];
+			var_dump($nome);
+			?>
+		</body>
+</html>
