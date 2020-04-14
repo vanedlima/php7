@@ -8,8 +8,10 @@
 		<body>
 			<?php
 			for ($contador =1;$contador<11;$contador ++)
-			{ echo $contador;
-			echo "";}
+			{
+ 			echo str_pad($contador,11);
+			echo "";
+			}
 			?>
 		</body>
 </html>
