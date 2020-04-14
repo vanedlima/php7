@@ -9,17 +9,12 @@
 		<br>
 			<?php
 				$nextweek= time() + (7*24*60*60);
-				echo 'A data de hoje: '.date ('d/m/y'). "<br>";
-			?>
-			<p>
-			<p>
-			<?php
-				echo 'Proximo Domingo: '. date ('d/m/y', $nextweek)."<br>";
-			?>
-			<p>
-			<p>
-			<?php
-				echo 'Daqui um mes: '. date('d/m/Y', strtotime('+1 month')) ."<br>";
-			?>
+				echo 'A data de hoje: '.date ('d/m/y');
+				echo "<br/>";
+				echo "<br/>";
+				echo 'Proximo Domingo: '. date ('d/m/y', $nextweek);
+				echo "<br/>";
+				echo "<br/>";
+				echo 'Daqui um mes: '. date('d/m/Y', strtotime('+1 month'));
 	</body>
 </html>
