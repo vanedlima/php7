@@ -1,0 +1,9 @@
+<?php
+    $cont=1;
+	    While ($cont <= 20)
+      {
+		    echo str_pad($cont,21);
+	      echo "";
+	      echo"/";
+	      $cont++;}
+  ?>
