@@ -1,0 +1,10 @@
+<?php
+	
+  $idade = "39";
+  $newidade="41";
+        echo $idade;
+        unset($idade);
+        echo "<br/>";
+        $idade= $newidade;
+        echo $newidade;
+ ?>
