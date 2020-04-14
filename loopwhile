@@ -9,13 +9,13 @@
 			<?php
 			$contador =1;
 			While ($contador < 11)
-			{ echo $contador;
+			{ echo str_pad($contador,11);
 			echo "";
 			$contador ++;}
-			?>
-			<?php
+			echo "<br/>";
+			
 			$contador =1;
-			do { echo $contador;
+			do { echo str_pad($contador,11);
 			echo "";
 			$contador ++;} While ($contador < 11);
 			?>
