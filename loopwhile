@@ -17,7 +17,7 @@
 			$contador =1;
 			do { echo $contador;
 			echo "";
-			$contador ++;} While ($contador < 11)
+			$contador ++;} While ($contador < 11);
 			?>
 		</body>
 </html>
