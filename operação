@@ -1,0 +1,20 @@
+<?php
+	
+	$n1=2;
+	$n2=4;
+	$n3=5;
+	$s=$n1 + $n2 + $n3;
+	$d= $n1 * $n2 * $n3;
+	
+	
+function soma(){
+	
+	global $s;
+	global $d;
+	
+	echo "a soma é $s";
+	echo "<br/>";
+	echo  "a multiplicação é $d";
+	echo "<br/>";
+}
+soma();
