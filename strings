@@ -11,12 +11,13 @@
 			</BR>
 			<p>
 			<BR>
-				<?php
-					$idade = 39;
+				<?php<?php
+					$idade = 41; //valor constante
+					$nome = 'vanessa'; // entre '' para que haja impressao da string
 					$result1 = "$idade";
-					$result2 = '$idade';
-					echo "$result1<BR>";
-					echo $result2;
+					$agosto = "$nome";
+					echo "$result1 <br/>";
+					echo $agosto;
 				?>
 			</body>
 </html>
