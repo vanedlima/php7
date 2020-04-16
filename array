@@ -11,6 +11,9 @@
 			  $ano = 2018; //nao tem aspas, senao funcionara como texto
 			  $sobrenome = "lima";
 			  $bloqueado = false;
+				echo "$nome $sobrenome <br/>";
+				echo "$ano <br/>";
+				echo "<br/>";
 			  
 				$carros = array ( "fusca", "fiat", "ecosport");
 				echo " Abaixo temos um tipo de array que conta as chaves: <br/>";//////////////////////////////////////////
