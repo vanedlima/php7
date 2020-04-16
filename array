@@ -11,13 +11,27 @@
 			  $ano = 2018; //nao tem aspas, senao funcionara como texto
 			  $sobrenome = "lima";
 			  $bloqueado = false;
-			  //////////////////////////////////////////
-			  $carros = array ( "fusca", "fiat", "ecosport");
-			    	echo $carros[2];
+			  
+				$carros = array ( "fusca", "fiat", "ecosport");
+				echo " Abaixo temos um tipo de array que conta as chaves: <br/>";//////////////////////////////////////////
+			    echo "<br/>";
+
+			    echo $carros[2];
 				echo "<br/>";
-			    	echo $carros[1];
+			    echo $carros[1];
 				echo "<br/>";
 				echo $carros[0];
-			?>
+				
+				echo "<br/>";
+				echo "<br/>";
+				
+				echo " Abaixo temos um tipo de array que conta as strings: <br/>";
+				echo "<br/>";
+				$array= array(
+ 					 "bar",
+					 "abecedario",
+					 "vanessa e seu ecosport",
+				) ;
+				var_dump ($array);
 		</body>
 </html>
