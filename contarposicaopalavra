@@ -1,6 +1,6 @@
 <?php
-				$palavranafrase= "hoje é sexta";
-				$q= strpos($palavranafrase, "sexta");
+				$frase= "hoje é sexta";
+				$q= strpos($frase, "sexta");
 				echo $q;
 
  				//vai me da como resultado :   8
@@ -8,9 +8,14 @@
 
 				echo "<br/>";
 				
-				$texto= substr ($palavranafrase,0,$q);
+				$texto= substr ($frase,0,$q);
 				var_dump($q);
 				
 				// retorna int(8)
+				
+				$a="hoje";
+				$texto2= substr($frase,$q + strlen($a), strlen($frase));
+				var_dump($a);
+				//strlen — Retorna o tamanho de uma string
 				
 ?>
