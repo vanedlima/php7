@@ -1,0 +1,6 @@
+<?php
+  $nome= "vanessa";
+  $nome= str_replace("a","A",$nome);
+  echo $nome;
+?>
+//run: vAnessA
