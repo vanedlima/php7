@@ -6,7 +6,8 @@
  				//vai me da como resultado :   8
  				// mostra em que posição do array encontra-se a palavra sexta, ou seja, na posição 8.
 
-
+				echo "<br/>";
+				
 				$texto= substr ($palavranafrase,0,$q);
 				var_dump($q);
 				
