@@ -1,0 +1,8 @@
+<?php
+				$palavranafrase= "hoje é sexta";
+				$q= strpos($palavranafrase, "sexta");
+				echo $q;
+ ?>
+ 
+ //vai me da como resultado :   8
+ // mostra em que posição do array encontra-se a palavra sexta, ou seja, na posição 8.
