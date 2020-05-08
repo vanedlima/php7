@@ -5,7 +5,7 @@
 </form>;
 <?php	
 
-foreach ($_get as $key=>$value){
+foreach ($_GET as $key=>$value){
 	echo "nome do campo".$key;
 	echo "valor do campo".$value;
 	echo "<hr>";
