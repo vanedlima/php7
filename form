@@ -10,3 +10,4 @@ foreach ($_GET as $key=>$value){
 	echo "valor do campo".$value;
 	echo "<hr>";
 }
+?>
