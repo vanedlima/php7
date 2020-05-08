@@ -8,3 +8,4 @@ $meses = array (
 		echo "Mês:".$mes. "<br><br>";  
 		
 }
+?>
