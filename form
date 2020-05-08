@@ -1,0 +1,12 @@
+<form>
+	<input type="text" name="nome">;
+    <iput type="date" date="data">;
+<input type= "submit" value="ok">;
+</form>;
+<?php	
+
+foreach ($_get as $key=>$value){
+	echo "nome do campo".$key;
+	echo "valor do campo".$value;
+	echo "<hr>";
+}
