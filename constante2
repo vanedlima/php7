@@ -1,9 +1,9 @@
 <?php
-define( "BANCODADOS", [
-	'127.0.0.1',
-	'root',
-	'password',
-	'test' 
+define("BANCODADOS",[
+	'127.0.0.1 <br>' ,
+	'root <br>',
+	'password <br>',
+	'test <br>' 
 ]);
 
 print_r (BANCODADOS);
