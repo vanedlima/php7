@@ -2,11 +2,11 @@
 
 $a=10;
 
-function trocavalor($a){
-	$a+=50;
-	return $a;
+function trocavalor($b){
+	$b+=50;
+	return $b;
 }
- echo trocavalor($a);
+ echo trocavalor($b);
  echo "<br>";
  echo $a;
 ?>
