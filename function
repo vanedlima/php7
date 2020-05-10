@@ -1,0 +1,6 @@
+<?php
+function salario(){
+	return 960.00;
+}
+echo "jose recebeu o salario:". (salario ()*3);
+?>
