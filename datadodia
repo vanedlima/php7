@@ -10,8 +10,8 @@
 		A data de hoje: 
 		<p>
 			<?php
-				$hoje = date("d /m / Y");
-				echo $hoje;
+				$d= new DateTime();
+				echo $d->format("d/m/Y");
 			?>
 	</body>
 </html>
